@@ -1,8 +1,0 @@
-# .travis.yml
-language: ruby
-rvm:
- - 2.2
- - jruby
- - rbx
-# uncomment this line if your project needs to run something other than `rake`:
-# script: bundle exec rspec spec
