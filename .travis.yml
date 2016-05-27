@@ -3,6 +3,6 @@ language: ruby
 rvm:
  - 2.2
  - jruby
- - rbx
+ - rbx-2
 # 12345
 # script: bundle exec rspec spec
