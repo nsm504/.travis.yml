@@ -1,8 +1,6 @@
-# .travis.yml
-language: ruby
-rvm:
- - 2.2
- - jruby
- - rbx-2
-# 12345
-# script: bundle exec rspec spec
+language: php
+php:
+- 5.5
+- 5.4
+- hhvm
+script: phpunit Test.php
