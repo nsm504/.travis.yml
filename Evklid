@@ -1,8 +1,0 @@
-def evklid(set_a, set_b)
-    a = set_a.values
-    b = set_b.values
-    c = (0...[a.size, b.size].max).to_a
- 
-   c.map { |i| ( [a[i], b[i]].any?(&:nil?) ? b[i]||a[i] : a[i] - b[i] ) ** 2 }
-    Math.sqrt( c.reduce(:+) ).round(5)
-end
